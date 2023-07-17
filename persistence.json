@@ -1,1 +1,14 @@
-{}
+{
+  "count": 187892,
+  "Level": 61,
+  "inletFlow": 0,
+  "outletFlow": 120,
+  "Motor1": {
+    "Auto": false,
+    "On": true
+  },
+  "Valve1": {
+    "Auto": false,
+    "Open": false
+  }
+}

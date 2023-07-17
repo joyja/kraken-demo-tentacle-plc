@@ -1,1 +1,40 @@
-{}
+{
+    "count": {
+        "datatype": "number",
+        "initialValue": 0,
+        "description": "The number of times the main task has been run.",
+        "persistent": true
+    },
+    "Level" : {
+        "description": "Level in the tank",
+        "datatype": "number",
+        "initialValue": 0,
+        "persistent": true
+    },
+    "inletFlow" : {
+        "description": "Flow into the tank",
+        "datatype": "number",
+        "initialValue": 0,
+        "persistent": true
+    },
+    "outletFlow" : {
+        "description": "Flow out of the tank",
+        "datatype": "number",
+        "initialValue": 0,
+        "persistent": true
+    },
+    "Motor1": {
+        "description": "A really great motor",
+        "datatype": "Motor",
+        "config": {
+            "name": "motor1"
+        }
+    },
+    "Valve1": {
+        "description": "A really great valve",
+        "datatype": "Valve",
+        "config": {
+            "name": "valve1"
+        }
+    }
+}

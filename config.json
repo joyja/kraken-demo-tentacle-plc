@@ -1,6 +1,27 @@
 {
-  "tasks": {},
-  "mqtt": {},
+  "tasks": {
+    "main": {
+      "description": "The main task",
+      "scanRate": 1000,
+      "program": "main"
+    }
+  },
+  "mqtt": {
+    "mosquitto1": {
+      "description": "JAR Automation Cluster MQTT",
+      "rate": 1000,
+      "config": {
+        "serverUrl": "ssl://mqtt.anywherescada.com:8883",
+        "groupId": "kraken-demo",
+        "username": "joyja",
+        "password": "pLLJtj1txGZ4JdrrF2OS",
+        "edgeNode": "tentacle-plc2",
+        "deviceName": "main",
+        "clientId": "tentacle-plc2",
+        "version": "spBv1.0"
+      }
+    }
+  },
   "modbus": {},
   "opcua": {}
 }
